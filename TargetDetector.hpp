@@ -4,23 +4,8 @@ using namespace cv;
 
 class TargetDetector
 {
-
+public:
+  processImage(Mat);
+  thresholdImage(Mat);
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
