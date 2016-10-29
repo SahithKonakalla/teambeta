@@ -23,5 +23,3 @@ class TargetProcessor
     double calcAzimuthX();
     double calcAzimuthY();
 }
-
-}
