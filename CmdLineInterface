@@ -1,2 +1,14 @@
 #include <opencv2/opencv.hpp>
 using namespace cv;
+
+
+Interface::Interface(int argc, char *argv[])
+{
+  if(config.getIsFile())
+            {
+                std::cerr << "Usage: " << name << std::endl
+                exit(1);
+            }
+            config.setDeviceID(boost::lexical_cast<int>(optarg));
+            config.setIsDevice(1);
+}
